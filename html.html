@@ -23,40 +23,42 @@
         <div class="col-8 ">
           <div class="headerMiddle">
             <span class="material">
-              <img src="assets//search.png" alt"search">
+              <img src="assets//search.png" alt="search">
             </span>
             <input type="text" placeholder="search mail" />
             <span class="material">
-              <img src="assets//arrow.png" alt"arrow">
+              <img src="assets//arrow.png" alt="arrow">
             </span>
           </div </div>
         </div>
         <div class="col-2 ">
           <div class="headerRight">
             <span class="material">
-              <img src="assets//apps.png" alt"apps">
+              <img src="assets//apps.png" alt="apps">
             </span>
             <span class="material">
-              <img src="assets//notication.png" alt"menu">
+              <img src="assets//notication.png" alt="menu">
             </span>
             <span class="material">
-              <img src="assets//account.png" alt"menu">
+              <img src="assets//account.png" alt="menu">
             </span>
           </div>
         </div>
       </div>
+    </div>
+    <div class="container-fluid">
       <div class="row flex-nowrap ">
         <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-light">
           <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2  min-vh-100">
             <button class="sideBarCompose">
               <span class="material">
-                <img src="assets//add.png" alt"menu">
+                <img src="assets//add.png" alt="menu">
               </span> compose </button>
             <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
               <li class="nav-item">
                 <div class="sideBarOption sideBarOptionActive">
                   <span class="material">
-                    <img src="assets//inbox.png" alt"log">
+                    <img src="assets//inbox.png" alt="log">
                   </span>
                   <h3>Inbox</h3>
                 </div>
@@ -64,122 +66,108 @@
               <li>
                 <div class="sideBarOption">
                   <span class="material">
-                    <img src="assets//star.png" alt"log">
+                    <img src="assets//star.png" alt="log">
                   </span>
                   <h3>Starred</h3>
                 </div>
-                <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
-                  <li class="w-100">
-                    <div class="sideBarOption">
-                      <span class="material">
-                        <img src="assets//time.png" alt"log">
-                      </span>
-                      <h3>Snoozed</h3>
-                    </div>
-                  </li>
-                  <li>
-                    <a href="#" class="nav-link px-0">
-                      <span class="d-none d-sm-inline">Item</span> 2 </a>
-                  </li>
-                </ul>
               </li>
-              <li>
-                <a href="#" class="nav-link px-0 align-middle">
-                  <i class="fs-4 bi-table"></i>
-                  <span class="ms-1 d-none d-sm-inline">Orders</span>
-                </a>
-              </li>
-              <li>
-                <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
-                  <i class="fs-4 bi-bootstrap"></i>
-                  <span class="ms-1 d-none d-sm-inline">Bootstrap</span>
-                </a>
-                <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
-                  <li class="w-100">
-                    <a href="#" class="nav-link px-0">
-                      <span class="d-none d-sm-inline">Item</span> 1 </a>
-                  </li>
-                  <li>
-                    <a href="#" class="nav-link px-0">
-                      <span class="d-none d-sm-inline">Item</span> 2 </a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                  <i class="fs-4 bi-grid"></i>
-                  <span class="ms-1 d-none d-sm-inline">Products</span>
-                </a>
-                <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
-                  <li class="w-100">
-                    <div class="sideBarOption">
-                      <span class="material">
-                        <img src="assets//label.png" alt"log">
-                      </span>
-                      <h3>Important</h3>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="sideBarOption">
-                      <span class="material">
-                        <img src="assets//near.png" alt"log">
-                      </span>
-                      <h3>Sent</h3>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="sideBarOption">
-                      <span class="material">
-                        <img src="assets//note.png" alt"log">
-                      </span>
-                      <h3>Drafts</h3>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="sideBarOption">
-                      <span class="material">
-                        <img src="assets//expand.png" alt"log">
-                      </span>
-                      <h3>More</h3>
-                    </div>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="#" class="nav-link px-0 align-middle">
-                  <i class="fs-4 bi-people"></i>
-                  <span class="ms-1 d-none d-sm-inline">Customers</span>
-                </a>
-              </li>
-            </ul>
-            <hr>
-            <div class="dropdown pb-4">
-              <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="https://github.com/mdo.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
-                <span class="d-none d-sm-inline mx-1">loser</span>
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
-                <li>
-                  <a class="dropdown-item" href="#">New project...</a>
+              <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                <li class="w-100">
+                  <div class="sideBarOption">
+                    <span class="material">
+                      <img src="assets//time.png" alt="log">
+                    </span>
+                    <h3>Snoozed</h3>
+                  </div>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">Settings</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Profile</a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Sign out</a>
+                  <div class="sideBarOption">
+                    <span class="material">
+                      <img src="assets//label.png" alt="log">
+                    </span>
+                    <h3>Important</h3>
+                  </div>
                 </li>
               </ul>
+              </li>
+              <li>
+                <div class="sideBarOption">
+                  <span class="material">
+                    <img src="assets//near.png" alt="log">
+                  </span>
+                  <h3>Sent</h3>
+                </div>
+              </li>
+              <li>
+                <div class="sideBarOption">
+                  <span class="material">
+                    <img src="assets//note.png" alt="log">
+                  </span>
+                  <h3>Drafts</h3>
+                </div>
+              </li>
+              <li class="w-100">
+                <div class="sideBarOption">
+                  <span class="material">
+                    <img src="assets//expand.png" alt="log">
+                  </span>
+                  <h3>More</h3>
+                </div>
+              </li>
+              <li>
+                <div class="sideBarFooter">
+                  <div class="sideBarFooterIcons">
+                    <span class="material">
+                      <img src="assets//person.png" alt="log">
+                    </span>
+                    <span class="material">
+                      <img src="assets//duo.png" alt="log">
+                    </span>
+                    <span class="material">
+                      <img src="assets//call.png" alt="log">
+                    </span>
+                  </div>
+                </div>
+              </li>
+          </div>
+        </div>
+        <div class="row flex-wrap ">
+          <div class="col-6">
+            <div class="align-items-center align-items-sm-start px-3 pt-2  min-vh-100">
+              <div class="emailListSettingLeft">
+                <input type="checkBox" />
+                <span class="material">
+                  <img src="assets//arrow.png" alt"log">
+                </span>
+                <span class="material">
+                  <img src="assets//redo.png" alt"log">
+                </span>
+                <span class="material">
+                  <img src="assets//3dot.png" alt"log">
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="align-items-center align-items-sm-start px-3 pt-2  min-vh-100">
+              <div class="emailListSettingRight">
+                <span class="material">
+                  <img src="assets//left.png" alt"log">
+                </span>
+                <span class="material">
+                  <img src="assets//right.png" alt"log">
+                </span>
+                <span class="material">
+                  <img src="assets//keyboard.png" alt"log">
+                </span>
+                <span class="material">
+                  <img src="assets//setting.png" alt"log">
+                </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
   </body>
 </html>
