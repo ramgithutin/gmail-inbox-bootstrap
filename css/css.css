@@ -1,73 +1,30 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 }
 .headerLeft img{
 	width:70px;
 }
-.row{ 
-	align-items: center;
-}
-
-.header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-.headerMiddle {
-	display: flex;
-	flex: 0.8;
-	align-items: center;
-	background-color: whitesmoke;
-	border-radius: 5px;
-	
-}
-
-.header .material img {
-	width:25px;
+.row*{ 
+	padding:0px;
 }
 .material img {
 	width:25px;
 }
 .headerMiddle input {
 	border: none;
-	margin-left:100px;
 	width: 100%;
-	padding: 8px;
-	outline: none;
-	font-size: medium;
+	padding: 4px;
 	background-color: transparent;
 }
-
-.headerRight {
-	padding-right: 20px;
-	display: flex;
-	justify-content: end;
-
-}
-
 .headerRight .material {
 	cursor: pointer;
 }
 
-.sideBarCompose {
-	margin-top: 15px;
-	margin-left: 10px;
-	margin-bottom: 15px;
-	text-transform: capitalize;
-	color: gray;
-	padding: 15px;
-	border-radius: 30px;
-	background-color: white;
-	display: flex;
-	align-items: center;
-	cursor: pointer;
-	outline: none;
-	border: none;
-	box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
+body {
+	font-family: arial, sans-serif;
 }
+
 .sideBarCompose {
 	margin-top: 15px;
 	margin-left: 10px;
@@ -92,11 +49,12 @@
 .sideBarOption {
 	display: flex;
 	align-items: center;
-	padding: 13px;
+	padding: 3px;
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
 	cursor: pointer;
 	color: #818181;
+	width:140px;
 }
 
 .sideBarOption h3 {
@@ -113,7 +71,7 @@
 .sideBarOptionActive h3,
 .sideBarOptionActive .material {
 	background-color: #fcecec;
-	font-weight: 800;
+	color:#cd0b37;
 }
 
 .sideBarFooter {
@@ -124,4 +82,96 @@
 .sideBarFooterIcons .material {
 	margin: 7px;
 	cursor: pointer;
+}
+.section {
+	display: flex;
+	align-items: center;
+	border-bottom-width: 2px;
+	padding: 15px;
+	min-width: 200px;
+	cursor: pointer;
+	color: gray;
+	border-width: 0;
+}
+
+.emailListSections {
+	display: flex;
+	background-color: white;
+	border-bottom: 1px solid whitesmoke;
+	z-index: 1;
+}
+
+.sectionSelected {
+	background-color: whitesmoke;
+	border-width: 3px;
+	color: red;
+	border-bottom: 3px solid red;
+}
+
+.section:hover {
+	background-color: whitesmoke;
+	border-width: 3px;
+}
+
+.section h4 {
+	font-size: 14px;
+	margin-left: 15px;
+}
+
+.emailRowOptions {
+	display: flex;
+	align-items: center;
+}
+
+.emailRowOptions .material img {
+	width:18px;
+}
+h4,
+h3{
+	margin:0px;
+}
+.emailRow {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid whitesmoke;
+	cursor: pointer;
+	padding: 5px;
+}
+
+.emailRow:hover {
+	border-top: 1px solid whitesmoke;
+	box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 24);
+}
+
+.emailRowMessage {
+	display: flex;
+	flex: 0.8;
+	align-items: center;
+	font-size: 13px;
+	justify-content: center;
+}
+
+.emailRowMessage h4 {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 13px;
+}
+
+.emailRowTitle {
+	font-size: 13px;
+	flex: 0.3;
+}
+
+.emailRowTime {
+	padding-right: 15px;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+h4 .emailRowDesrciption {
+	font-weight: 400;
+	color: gray;
 }
