@@ -8,7 +8,7 @@
     <title>gmail</title>
   </head>
   <body>
-    <div class="container-fluid p-0 border">
+    <div class="container-fluid p-0 border-bottom">
       <div class="row  align-items-center">
         <div class="col-2 ">
           <div class="headerLeft">
@@ -29,8 +29,8 @@
             </span>
           </div>
         </div>
-        <div class="col-2 p-0 text-end ">
-          <div class="headerRight justify-content-end ">
+        <div class="col-2  text-end ">
+          <div class="headerRight ">
             <span class="material">
               <img src="assets/apps.png" alt="apps">
             </span>
@@ -47,8 +47,8 @@
     <div class="container-fluid">
       <div class="row flex-nowrap">
         <div class="col-2 p-0">
-          <div class="d-flex flex-column align-items-center align-items-sm-start ">
-            <button class="sideBarCompose mt-15 ml-10 mb-15 d-flex align-item-center p-15">
+          <div class="d-flex flex-column align-items-sm-start ">
+            <button class="sideBarCompose m-2 bg-white d-flex align-items-center p-3 text-capitalize text-secondary">
               <span class="material">
                 <img src="assets/add.png" alt="menu">
               </span> compose </button>
@@ -69,24 +69,23 @@
                   <h3>Starred</h3>
                 </div>
               </li>
-              <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
-                <li class="w-100">
-                  <div class="sideBarOption ">
-                    <span class="material">
-                      <img src="assets/time.png" alt="log">
-                    </span>
-                    <h3>Snoozed</h3>
-                  </div>
-                </li>
-                <li>
-                  <div class="sideBarOption">
-                    <span class="material">
-                      <img src="assets/label.png" alt="log">
-                    </span>
-                    <h3>Important</h3>
-                  </div>
-                </li>
-              </ul>
+            </ul>
+            <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+              <li class="w-100">
+                <div class="sideBarOption ">
+                  <span class="material">
+                    <img src="assets/time.png" alt="log">
+                  </span>
+                  <h3>Snoozed</h3>
+                </div>
+              </li>
+              <li>
+                <div class="sideBarOption">
+                  <span class="material">
+                    <img src="assets/label.png" alt="log">
+                  </span>
+                  <h3>Important</h3>
+                </div>
               </li>
               <li>
                 <div class="sideBarOption">
@@ -127,6 +126,7 @@
                   </div>
                 </div>
               </li>
+            </ul>
           </div>
         </div>
         <div class="col-10">
@@ -159,174 +159,209 @@
             </div>
           </div>
           <div class="row flex-nowrap mt-3 border">
-           <div class="col-3 p-0">
-             <div class="section sectionSelected d-flex ">
-               <span class="material"> <img src="assets/inbox3.png" alt="log"> </span>
-               <h4>Primary</h4>
-             </div>
-           </div>
-           <div class="col-3 p-0">  
-             <div class="section d-flex">
-               <span class="material"> <img src="assets/people.png" alt="log"></span>
-               <h4>Social</h4>
-             </div>
-           </div>
-           <div class="col-3 p-0">
-	    <div class="section d-flex">
-              <span class="material"> <img src="assets/sell.png" alt="log"></span>
-              <h4>Promotions</h4>
-	    </div>
-           </div>
-         </div>
+            <div class="col-3 p-0">
+              <div class="section sectionSelected d-flex ">
+                <span class="material">
+                  <img src="assets/inbox3.png" alt="log">
+                </span>
+                <h4>Primary</h4>
+              </div>
+            </div>
+            <div class="col-3 p-0">
+              <div class="section d-flex">
+                <span class="material">
+                  <img src="assets/people.png" alt="log">
+                </span>
+                <h4>Social</h4>
+              </div>
+            </div>
+            <div class="col-3 p-0">
+              <div class="section d-flex">
+                <span class="material">
+                  <img src="assets/sell.png" alt="log">
+                </span>
+                <h4>Promotions</h4>
+              </div>
+            </div>
+          </div>
           <!--message starting-->
           <div class="emailRow row flex-nowrap mt-3">
-           <div class="col-2 p-2">
-             <div class="emailRowOptions">
-              <input type="checkbox">
-              <span class="material"> <img src="assets/star.png" alt"log"> </span>
-              <span class="material"> <img src="assets/label.png" alt"log"> </span>
+            <div class="col-2 p-2">
+              <div class="emailRowOptions">
+                <input type="checkbox">
+                <span class="material">
+                  <img src="assets/star.png" alt="log">
+                </span>
+                <span class="material">
+                  <img src="assets/label.png" alt="log">
+                </span>
+              </div>
             </div>
-           </div>
-	   <div class="col-1 p-0"> 
-	     <h3 class="emailRowTitle"> Youtube </h3>
-	   </div>
-           <div class="col-5 p-0">  
-            <div class="emailRowMessage">
-              <h4> Channel Updates <span class="emailRowDesrciption"> - hi have a nice day</span>
-              </h4>
+            <div class="col-1 p-0">
+              <h3 class="emailRowTitle"> Youtube </h3>
             </div>
-           </div>
-           <div class="col-4 p-0 text-end">
-	      <p class="emailRowTime">10pm</p>
-           </div>
+            <div class="col-5 p-0">
+              <div class="emailRowMessage">
+                <h4> Channel Updates <span class="emailRowDesrciption"> - hi have a nice day</span>
+                </h4>
+              </div>
+            </div>
+            <div class="col-4 p-0 text-end">
+              <p class="emailRowTime">10pm</p>
+            </div>
           </div>
           <!-- copy message starting-->
           <div class="emailRow row flex-nowrap">
-           <div class="col-2 p-2">
-             <div class="emailRowOptions">
-              <input type="checkbox">
-              <span class="material"> <img src="assets/star.png" alt"log"> </span>
-              <span class="material"> <img src="assets/label.png" alt"log"> </span>
+            <div class="col-2 p-2">
+              <div class="emailRowOptions">
+                <input type="checkbox">
+                <span class="material">
+                  <img src="assets/star.png" alt="log">
+                </span>
+                <span class="material">
+                  <img src="assets/label.png" alt="log">
+                </span>
+              </div>
             </div>
-           </div>
-	   <div class="col-1 p-0"> 
-	     <h3 class="emailRowTitle"> Youtube </h3>
-	   </div>
-           <div class="col-5 p-0">  
-            <div class="emailRowMessage">
-              <h4> Account verification  <span class="emailRowDesrciption"> - your channel have been veified on th code:61234</span>
-              </h4>
+            <div class="col-1 p-0">
+              <h3 class="emailRowTitle"> Youtube </h3>
             </div>
-           </div>
-           <div class="col-4 p-0 text-end">
-	      <p class="emailRowTime">Aug 30</p>
-           </div>
+            <div class="col-5 p-0">
+              <div class="emailRowMessage">
+                <h4> Account verification <span class="emailRowDesrciption"> - your channel have been veified on th code:61234</span>
+                </h4>
+              </div>
+            </div>
+            <div class="col-4 p-0 text-end">
+              <p class="emailRowTime">Aug 30</p>
+            </div>
           </div>
           <div class="emailRow row flex-nowrap">
-           <div class="col-2 p-2">
-             <div class="emailRowOptions">
-              <input type="checkbox">
-              <span class="material"> <img src="assets/star.png" alt"log"> </span>
-              <span class="material"> <img src="assets/label.png" alt"log"> </span>
+            <div class="col-2 p-2">
+              <div class="emailRowOptions">
+                <input type="checkbox">
+                <span class="material">
+                  <img src="assets/star.png" alt="log">
+                </span>
+                <span class="material">
+                  <img src="assets/label.png" alt="log">
+                </span>
+              </div>
             </div>
-           </div>
-	   <div class="col-1 p-0"> 
-	     <h3 class="emailRowTitle"> Google</h3>
-	   </div>
-           <div class="col-5 p-0">  
-            <div class="emailRowMessage">
-              <h4>  Hey <span class="emailRowDesrciption"> - hi have a nice day</span>
-              </h4>
+            <div class="col-1 p-0">
+              <h3 class="emailRowTitle"> Google</h3>
             </div>
-           </div>
-           <div class="col-4 p-0 text-end">
-	      <p class="emailRowTime">Aug 27</p>
-           </div>
+            <div class="col-5 p-0">
+              <div class="emailRowMessage">
+                <h4> Hey <span class="emailRowDesrciption"> - hi have a nice day</span>
+                </h4>
+              </div>
+            </div>
+            <div class="col-4 p-0 text-end">
+              <p class="emailRowTime">Aug 27</p>
+            </div>
           </div>
           <div class="emailRow row flex-nowrap">
-           <div class="col-2 p-2">
-             <div class="emailRowOptions">
-              <input type="checkbox">
-              <span class="material"> <img src="assets/star.png" alt"log"> </span>
-              <span class="material"> <img src="assets/label.png" alt"log"> </span>
+            <div class="col-2 p-2">
+              <div class="emailRowOptions">
+                <input type="checkbox">
+                <span class="material">
+                  <img src="assets/star.png" alt="log">
+                </span>
+                <span class="material">
+                  <img src="assets/label.png" alt="log">
+                </span>
+              </div>
             </div>
-           </div>
-	   <div class="col-1 p-0"> 
-	     <h3 class="emailRowTitle"> Youtube </h3>
-	   </div>
-           <div class="col-5 p-0">  
-            <div class="emailRowMessage">
-              <h4>  Google Service Updates  <span class="emailRowDesrciption">  -please login your account for more...</span>
-              </h4>
+            <div class="col-1 p-0">
+              <h3 class="emailRowTitle"> Youtube </h3>
             </div>
-           </div>
-           <div class="col-4 p-0 text-end">
-	      <p class="emailRowTime">Aug 27</p>
-           </div>
+            <div class="col-5 p-0">
+              <div class="emailRowMessage">
+                <h4> Google Service Updates <span class="emailRowDesrciption"> -please login your account for more...</span>
+                </h4>
+              </div>
+            </div>
+            <div class="col-4 p-0 text-end">
+              <p class="emailRowTime">Aug 27</p>
+            </div>
           </div>
           <div class="emailRow row flex-nowrap">
-           <div class="col-2 p-2">
-             <div class="emailRowOptions">
-              <input type="checkbox">
-              <span class="material"> <img src="assets/star.png" alt"log"> </span>
-              <span class="material"> <img src="assets/label.png" alt"log"> </span>
+            <div class="col-2 p-2">
+              <div class="emailRowOptions">
+                <input type="checkbox">
+                <span class="material">
+                  <img src="assets/star.png" alt="log">
+                </span>
+                <span class="material">
+                  <img src="assets/label.png" alt="log">
+                </span>
+              </div>
             </div>
-           </div>
-	   <div class="col-1 p-0"> 
-	     <h3 class="emailRowTitle"> Google</h3>
-	   </div>
-           <div class="col-5 p-0">  
-            <div class="emailRowMessage">
-              <h4> Welcome Google <span class="emailRowDesrciption"> - hi you have a nice day</span>
-              </h4>
+            <div class="col-1 p-0">
+              <h3 class="emailRowTitle"> Google</h3>
             </div>
-           </div>
-           <div class="col-4 p-0 text-end">
-	      <p class="emailRowTime">10pm</p>
-           </div>
+            <div class="col-5 p-0">
+              <div class="emailRowMessage">
+                <h4> Welcome Google <span class="emailRowDesrciption"> - hi you have a nice day</span>
+                </h4>
+              </div>
+            </div>
+            <div class="col-4 p-0 text-end">
+              <p class="emailRowTime">10pm</p>
+            </div>
           </div>
           <div class="emailRow row flex-nowrap">
-           <div class="col-2 p-2">
-             <div class="emailRowOptions">
-              <input type="checkbox">
-              <span class="material"> <img src="assets/star.png" alt"log"> </span>
-              <span class="material"> <img src="assets/label.png" alt"log"> </span>
+            <div class="col-2 p-2">
+              <div class="emailRowOptions">
+                <input type="checkbox">
+                <span class="material">
+                  <img src="assets/star.png" alt="log">
+                </span>
+                <span class="material">
+                  <img src="assets/label.png" alt="log">
+                </span>
+              </div>
             </div>
-           </div>
-	   <div class="col-1 p-0"> 
-	     <h3 class="emailRowTitle"> Youtube </h3>
-	   </div>
-           <div class="col-5 p-0">  
-            <div class="emailRowMessage">
-              <h4> Channel Updates <span class="emailRowDesrciption"> - hi have a nice day</span>
-              </h4>
+            <div class="col-1 p-0">
+              <h3 class="emailRowTitle"> Youtube </h3>
             </div>
-           </div>
-           <div class="col-4 p-0 text-end">
-	      <p class="emailRowTime">Aug 15</p>
-           </div>
+            <div class="col-5 p-0">
+              <div class="emailRowMessage">
+                <h4> Channel Updates <span class="emailRowDesrciption"> - hi have a nice day</span>
+                </h4>
+              </div>
+            </div>
+            <div class="col-4 p-0 text-end">
+              <p class="emailRowTime">Aug 15</p>
+            </div>
           </div>
           <div class="emailRow row flex-nowrap">
-           <div class="col-2 p-2">
-             <div class="emailRowOptions">
-              <input type="checkbox">
-              <span class="material"> <img src="assets/star.png" alt"log"> </span>
-              <span class="material"> <img src="assets/label.png" alt"log"> </span>
+            <div class="col-2 p-2">
+              <div class="emailRowOptions">
+                <input type="checkbox">
+                <span class="material">
+                  <img src="assets/star.png" alt="log">
+                </span>
+                <span class="material">
+                  <img src="assets/label.png" alt="log">
+                </span>
+              </div>
             </div>
-           </div>
-	   <div class="col-1 p-0"> 
-	     <h3 class="emailRowTitle"> Youtube </h3>
-	   </div>
-           <div class="col-5 p-0">  
-           <div class="emailRowMessage">
-              <h4> Security alert <span class="emailRowDesrciption"> - Google Account PIN changed please check your</span>
-              </h4>
+            <div class="col-1 p-0">
+              <h3 class="emailRowTitle"> Youtube </h3>
             </div>
-           </div>
-           <div class="col-4 p-0 text-end">
-	      <p class="emailRowTime">Aug 10</p>
-           </div>
+            <div class="col-5 p-0">
+              <div class="emailRowMessage">
+                <h4> Security alert <span class="emailRowDesrciption"> - Google Account PIN changed please check your</span>
+                </h4>
+              </div>
+            </div>
+            <div class="col-4 p-0 text-end">
+              <p class="emailRowTime">Aug 10</p>
+            </div>
           </div>
+        </div>
       </div>
     </div>
   </body>
