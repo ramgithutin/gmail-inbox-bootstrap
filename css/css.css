@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+body {
+	 font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+
 .headerLeft img {
 	width: 70px;
 }
@@ -26,9 +30,6 @@
 	cursor: pointer;
 }
 
-body {
-	font-family: arial, sans-serif;
-}
 
 .sideBarCompose {
 	border-radius: 30px;
@@ -39,11 +40,12 @@ body {
 .sideBarOption {
 	display: flex;
 	padding: 3px;
-	border-top-right-radius: 20px;
-	border-bottom-right-radius: 20px;
+	border-top-right-radius: 13px;
+	border-bottom-right-radius: 12px;
 	cursor: pointer;
 	color: #818181;
 	width: 140px;
+	border:none;
 }
 
 .sideBarOption h3 {
@@ -103,6 +105,12 @@ body {
 	border-width: 3px;
 }
 
+
+.emailListSettingLeft img,
+.emailListSettingRight img {
+	cursor:pointer;
+}
+
 .section h4 {
 	font-size: 14px;
 	margin-left: 15px;
@@ -127,7 +135,6 @@ h3 {
 	align-items: center;
 	border-bottom: 1px solid whitesmoke;
 	cursor: pointer;
-	padding: 5px;
 }
 
 .emailRow:hover {
@@ -140,7 +147,6 @@ h3 {
 	flex: 0.8;
 	align-items: center;
 	font-size: 13px;
-	justify-content: center;
 }
 
 .emailRowMessage h4 {
@@ -148,8 +154,9 @@ h3 {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	padding-left: 5px;
-	padding-right: 5px;
+	padding-right: 100px;
 	font-size: 13px;
+	font-weight:bold;
 }
 
 .emailRowTitle {
@@ -166,4 +173,5 @@ h3 {
 h4 .emailRowDesrciption {
 	font-weight: 400;
 	color: gray;
+	font-size:11px;
 }
