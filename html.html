@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="css/css.css" />
     <link rel="shortcut icon" href="assets/glogo.png">
@@ -45,8 +48,8 @@
       </div>
     </div>
     <div class="container-fluid">
-      <div class="row flex-nowrap">
-        <div class="col-2 p-0">
+      <div class="row ">
+        <div class="col-2 p-0 d-none d-md-block">
           <div class="d-flex flex-column align-items-sm-start ">
             <button class="sideBarCompose m-2 bg-white d-flex align-items-center p-3 text-capitalize text-secondary">
               <span class="material">
@@ -54,7 +57,7 @@
               </span> compose </button>
             <ul class="nav nav-pills">
               <li class="nav-item">
-                <div class="sideBarOption sideBarOptionActive">
+                <div class="sideBarOption sideBarOptionActive align-items-center">
                   <span class="material">
                     <img src="assets/inbox.png" alt="log">
                   </span>
@@ -62,15 +65,15 @@
                 </div>
               </li>
               <li>
-                <div class="sideBarOption">
+                <div class="sideBarOption align-items-center">
                   <span class="material">
                     <img src="assets/star.png" alt="log">
                   </span>
                   <h3>Starred</h3>
                 </div>
               </li>
-              <li class="w-100">
-                <div class="sideBarOption ">
+              <li>
+                <div class="sideBarOption align-items-center">
                   <span class="material">
                     <img src="assets/time.png" alt="log">
                   </span>
@@ -78,7 +81,7 @@
                 </div>
               </li>
               <li>
-                <div class="sideBarOption">
+                <div class="sideBarOption align-items-center">
                   <span class="material">
                     <img src="assets/label.png" alt="log">
                   </span>
@@ -86,7 +89,7 @@
                 </div>
               </li>
               <li>
-                <div class="sideBarOption">
+                <div class="sideBarOption align-items-center">
                   <span class="material">
                     <img src="assets/near.png" alt="log">
                   </span>
@@ -94,15 +97,15 @@
                 </div>
               </li>
               <li>
-                <div class="sideBarOption">
+                <div class="sideBarOption align-items-center">
                   <span class="material">
                     <img src="assets/note.png" alt="log">
                   </span>
                   <h3>Drafts</h3>
                 </div>
               </li>
-              <li class="w-100">
-                <div class="sideBarOption">
+              <li>
+                <div class="sideBarOption align-items-center">
                   <span class="material">
                     <img src="assets/expand.png" alt="log">
                   </span>
@@ -110,7 +113,7 @@
                 </div>
               </li>
               <li>
-                <div class="sideBarFooter">
+                <div class="sideBarFooter align-items-center">
                   <div class="sideBarFooterIcons mt-4">
                     <span class="material">
                       <img src="assets/person.png" alt="log">
@@ -127,8 +130,8 @@
             </ul>
           </div>
         </div>
-        <div class="col-10">
-          <div class="row flex-nowrap mt-3">
+        <div class="col">
+          <div class="row  mt-3">
             <div class="emailListSettingLeft col-6">
               <input type="checkBox" />
               <span class="material">
@@ -156,8 +159,8 @@
               </span>
             </div>
           </div>
-          <div class="row flex-nowrap mt-3 border-top border-bottom">
-            <div class="col-3 p-0">
+          <div class="row  mt-3 border-top border-bottom">
+            <div class="col p-0">
               <div class="section sectionSelected d-flex ">
                 <span class="material">
                   <img src="assets/inbox3.png" alt="log">
@@ -165,7 +168,7 @@
                 <h4>Primary</h4>
               </div>
             </div>
-            <div class="col-3 p-0">
+            <div class="col-3 p-0 d-none d-md-block">
               <div class="section d-flex">
                 <span class="material">
                   <img src="assets/people.png" alt="log">
@@ -173,7 +176,7 @@
                 <h4>Social</h4>
               </div>
             </div>
-            <div class="col-3 p-0">
+            <div class="col-3 p-0 d-none d-md-block">
               <div class="section d-flex">
                 <span class="material">
                   <img src="assets/sell.png" alt="log">
@@ -183,9 +186,9 @@
             </div>
           </div>
           <!--message starting-->
-          <div class="emailRow row flex-nowrap">
+          <div class="emailRow row ">
             <div class="col-1">
-              <div class="emailRowOptions">
+              <div class="emailRowOptions align-items-center">
                 <input type="checkbox">
                 <span class="material">
                   <img src="assets/star.png" alt="log">
@@ -209,7 +212,7 @@
             </div>
           </div>
           <!-- copy message starting-->
-          <div class="emailRow row flex-nowrap">
+          <div class="emailRow row ">
             <div class="col-1 p-2">
               <div class="emailRowOptions">
                 <input type="checkbox">
@@ -234,7 +237,7 @@
               <p class="emailRowTime">Aug 30</p>
             </div>
           </div>
-          <div class="emailRow row flex-nowrap">
+          <div class="emailRow row ">
             <div class="col-1 p-2">
               <div class="emailRowOptions">
                 <input type="checkbox">
@@ -259,7 +262,7 @@
               <p class="emailRowTime">Aug 27</p>
             </div>
           </div>
-          <div class="emailRow row flex-nowrap">
+          <div class="emailRow row ">
             <div class="col-1 p-2">
               <div class="emailRowOptions">
                 <input type="checkbox">
@@ -284,7 +287,7 @@
               <p class="emailRowTime">Aug 27</p>
             </div>
           </div>
-          <div class="emailRow row flex-nowrap">
+          <div class="emailRow row ">
             <div class="col-1 p-2">
               <div class="emailRowOptions">
                 <input type="checkbox">
@@ -309,7 +312,7 @@
               <p class="emailRowTime">10pm</p>
             </div>
           </div>
-          <div class="emailRow row flex-nowrap">
+          <div class="emailRow row ">
             <div class="col-1 p-2">
               <div class="emailRowOptions">
                 <input type="checkbox">
@@ -334,7 +337,7 @@
               <p class="emailRowTime">Aug 15</p>
             </div>
           </div>
-          <div class="emailRow row flex-nowrap">
+          <div class="emailRow row ">
             <div class="col-1 p-2">
               <div class="emailRowOptions">
                 <input type="checkbox">

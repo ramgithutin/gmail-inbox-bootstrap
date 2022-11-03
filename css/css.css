@@ -16,7 +16,7 @@ body {
 }
 
 .material img {
-	width: 25px;
+	width: 18px;
 }
 
 .headerMiddle input {
@@ -47,11 +47,13 @@ body {
 	width: 140px;
 	border:none;
 }
-
+button{
+	font-size: 12px;
+}
 .sideBarOption h3 {
 	flex: 1;
 	margin-left: 10px;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 400;
 }
 
@@ -119,15 +121,11 @@ body {
 .emailRowOptions {
 	display: flex;
 	align-items: center;
+	justify-content: space-around;
 }
 
 .emailRowOptions .material img {
 	width: 18px;
-}
-
-h4,
-h3 {
-	margin: 0px;
 }
 
 .emailRow {
@@ -146,7 +144,7 @@ h3 {
 	display: flex;
 	flex: 0.8;
 	align-items: center;
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .emailRowMessage h4 {
@@ -155,12 +153,12 @@ h3 {
 	text-overflow: ellipsis;
 	padding-left: 5px;
 	padding-right: 100px;
-	font-size: 13px;
+	font-size: 12px;
 	font-weight:bold;
 }
 
 .emailRowTitle {
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: bold;
 }
 
